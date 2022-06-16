@@ -1,0 +1,46 @@
+.container{
+    display: grid;
+    height: 100vh;
+    border: 3px solid black;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "hijo1 hijo1 hijo2 hijo2 hijo2"
+    "hijo1 hijo1 hijo-x hijo3 hijo3"
+    "hijo4 hijo-y hijo5 hijo5 hijo5"
+    "hijo4 hijo-y hijo5 hijo5 hijo5";
+    grid-gap: 20px;
+}
+.hijo{
+    background-color: aqua;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.hijo-1{
+    grid-area: hijo1;
+    background-color: aquamarine;
+}
+.hijo-2{
+    grid-area: hijo2;
+    background-color: blueviolet;
+}
+.hijo-3{
+    grid-area: hijo3;
+    background-color: green;
+}
+.hijo-4{
+    grid-area: hijo4;
+    background-color: gold;
+}
+.hijo-5{
+    grid-area: hijo5;
+    background-color: wheat;
+}
+.hijo-x{
+    grid-area: hijo-x;
+    background-color: white;
+}
+.hijo-y{
+    grid-area: hijo-y;
+    background-color: white;
+}

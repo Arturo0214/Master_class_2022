@@ -1,0 +1,21 @@
+.gold {
+    color: gold;
+
+}
+.blue {
+    color: blue;
+}
+
+
+#perrito {
+    width: 400px;
+}
+
+h3{
+    display: inline-block;
+    background-color: white;
+    margin: 20px; 
+}
+body{
+    background-color: aquamarine;
+}

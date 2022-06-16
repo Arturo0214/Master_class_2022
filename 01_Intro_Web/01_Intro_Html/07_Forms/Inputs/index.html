@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <input type="TEXT">
+    <H1>Formularios HTML</H1>
+    <input type="text" class="textInput">
+    <!--br es salto de linea-->
+    <br> 
+    <label>
+        Aceptas los terminos y condiciones?
+        <input type="checkbox" value="si">
+    </label>
+    <br>
+    <label>
+        Selecciona un color
+        <input type="color">
+    </label>
+    <br>
+    <label>
+        Seleccionar una fecha de nacimiento
+        <input type="date" value="2022-06-13"
+        min="1900-06-13"
+        max="2022-06-13"
+        >
+    </label>    
+    <br>
+    <label>
+        Ingresa tu password
+        <input type="password">
+    </label>
+    <br>
+    <label>
+        Pon un numero
+     
+    </label>
+    <br>
+    <hr>
+    <h4>Ingresa tu rango de edad</h4>
+    <label>
+        0-30
+        <input name="age" type="radio" value="30">
+    </label>
+    <br>
+    <label>
+        31-40
+        <input name="age" type="radio" value="40">
+    </label>
+    <br>
+    <label>
+        41-50
+        <input name="age" type="radio" value="50">
+    </label>
+    <br>
+    <label>
+        51-60
+        <input name="age" type="radio" value="60">
+    </label>
+    <br>
+    <label>
+        <input type="range" list="porcentaje">
+        <datalist>
+            <option value="0" label="0%"></option>
+            <option value="10" label="10%"></option>
+            <option value="20" label="10%"></option>
+            <option value="30" label="10%"></option>
+            <option value="40" label="10%"></option>
+            <option value="50" label="10%"></option>
+            <option value="60" label="10%"></option>
+            <option value="70" label="10%"></option>
+            <option value="80" label="10%"></option>
+            <option value="90" label="10%"></option>
+            <option value="100" label="100%"></option>
+        </datalist>
+    </label>
+    <br>
+    <label>
+        Selecciona una imagen
+        <input type="file">
+    </label>
+    <hr>
+    <br>
+    <label>
+        Busca un elemento
+        <input type="search">
+    </label>
+    <br>
+    <label for="sex">Genero
+        <select name="sex" id="sex">
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+            <option value="Otro">Otro</option>
+        </select>
+    </label>
+
+
+</body>
+</html>

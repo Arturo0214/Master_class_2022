@@ -1,0 +1,20 @@
+.contenedor{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.caja{
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+}
+@media screen and (min-width: 400px) and (max-width: 600px){
+    .contenedor{
+        flex-direction: column;
+    }
+    .caja{
+        background-color: black;
+    }
+}
+

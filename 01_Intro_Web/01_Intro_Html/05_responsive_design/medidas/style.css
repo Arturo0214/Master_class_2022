@@ -1,0 +1,24 @@
+.contenedor-mayor{
+    font-size: 16px;
+    display: inline-block;
+    border: 3px solid black;
+    height: 100vh;
+    width: 100vw;
+}
+.titulo{
+    font-size: 3em;
+}
+.subtitulo{
+    font-size: 2em;
+}
+.contenedor{
+    font-size: 60px;
+    width: 50%;
+    border: 3px solid red;
+}
+.parrafo{
+    font-size: 1rem;
+    border: 3px solid aqua;
+    width: 50%;
+
+}

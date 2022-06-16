@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="pizza">
+        <div class="header">
+            <h1>Pizzamaniacos</h1>
+        </div>
+        <div class="imagen">
+            <img src="https://hacermasapizza.com/img/pizza-marinera-469.jpg"style="width: 300px;">
+            <img src="https://t2.rg.ltmcdn.com/es/posts/3/0/5/pizza_marinera_22503_orig.jpg" style="width: 300px;">
+            <img src="https://www.mariscosapolo.com/wp-content/uploads/2020/08/como-hacer-pizza-de-marisco-825x546.jpg"style="width: 300px;">
+        </div>
+    </div>
+    <hr>
+    <form action="https://formsubmit.co/osvaldosuarezcruz@gmail.com" method="POST">
+        <label>
+            Ingresa tu nombre
+            <input type="text" name="nombre">
+        </label>
+        <br>
+        <br>
+        <label>
+            Ingresa tu direccion
+            <input type="text" name="direccion">
+        </label>
+        <br>
+        <br>
+        <label>
+           Ingresa tu telefono
+            <input type="text" name="telefono">
+        </label>
+        <br>
+        <br>
+        <label>
+            Ingresa tu correo
+            <input type="email" name="correo">
+        </label>
+        <br>
+        <br>
+        <label for="Pizza">Cuantas pizzas quieres?
+            <select name="Pizza" id="Pizza">
+                <option value="1">Una</option>
+                <option value="2">Dos</option>
+                <option value="3">Tres</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <label>
+            Como quieres tu pizza?
+            <input type="checkbox" name="ingrediente-1" value="Hawaiana">Hawaiana
+            <input type="checkbox" name="ingrediente-2" value="Pepperoni">Pepperoni
+            <input type="checkbox" name="ingrediente-3" value="Mariscos">Mariscos
+        </label>
+        <button type="submit">ENVIAR</button>
+    </form>
+    
+</body>
+</html>

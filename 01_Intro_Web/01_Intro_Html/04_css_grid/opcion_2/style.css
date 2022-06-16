@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    height: 100vh;
+    border: 3px solid black;
+    /*grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);*/
+    /* grid-template: filas/columnas*/
+    grid-template-columns: [v1] 1fr [v2] 1fr [v3];
+    grid-template-rows: [h1] 1fr [h2] 1fr [h3] 1fr [h4];
+    grid-column-gap: 20px;
+    row-gap: 20px;
+}
+.hijo{
+    background-color: aqua;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.hijo-1{
+    grid-column: v1/v3;
+    grid-row: h3/h4;
+    border-radius: 20px;
+}
+.hijo-3{
+    grid-column: v1/v3;
+    grid-row: h2/h3;
+}
+.hijo-4{
+    grid-column: v1/v3;
+    grid-row: h1/h2;
+}

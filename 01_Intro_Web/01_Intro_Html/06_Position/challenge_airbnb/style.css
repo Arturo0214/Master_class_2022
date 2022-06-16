@@ -1,0 +1,339 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    border-radius: 20px;
+}
+.top-text{
+    top: 0;
+    width: 1400px;
+    height: 80px;
+    z-index: 2;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid #dedede;
+    background-color: white;
+}
+.airbnb-logo{
+    left: 60px;
+    display: flex;
+    position: absolute;
+    margin: 0;
+    padding: 0%;
+}
+.botones-centro{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    left: 520px;
+    justify-content: space-around;
+    border-radius: 60px;
+    border: 1px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.cualquier-lugar{
+    border-right: 1px solid gray;
+    padding-right: 10px;
+}
+.cuantos{
+    color: gray;
+}
+.cualquier-semana{
+    border-right: 1px solid gray;
+    padding-right: 10px;
+}
+.boton-busqueda{
+    background-color: white;
+}
+.botones-end{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 1180px;
+    position: fixed;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.juntos-end{
+    display: flex;
+    flex-direction: row;
+    width: 27%;
+    border-radius: 60px;
+    border: 1px solid gray;
+    justify-content: space-around;
+}
+.anfitrion{
+    display: flex;
+    text-decoration: none;
+}
+.segunda-barra{
+    left: 5px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 2;
+    height: 70px;
+    padding: 5px;
+    top: 80px;
+    width: 1430px;
+    border-top: solid #dedede;
+    background-color: white;
+}
+.botones-abajo{
+    width: 1430px;
+    left: 60px;
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    background-color: white;
+}
+.lago{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid black
+}
+.parques{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cabañas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Minicasas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Albercas-increibles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Extraordinarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Artico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.diseño{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.camping{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Islas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Playa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Filtros{
+    align-items: center;
+    width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 80px;
+    border: 1px solid #dedede;
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    top: 160px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "hijo1 hijo2 hijo3 hijo4"
+    "hijo5 hijo6 hijo7 hijo8";
+    grid-gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texas{
+    grid-area: hijo1;
+    display: flex;
+    flex-direction: column;
+}
+.alabama{
+    grid-area: hijo2;
+    display: flex;
+    flex-direction: column;
+}
+.tzintzuntzan{
+    grid-area: hijo3;
+    display: flex;
+    flex-direction: column;
+}
+.tzintzuntzan-2{
+    grid-area: hijo4;
+    display: flex;
+    flex-direction: column;
+}
+.lakeway{
+    grid-area: hijo5;
+    display: flex;
+    flex-direction: column;
+}
+.kemp{
+    grid-area: hijo6;
+    display: flex;
+    flex-direction: column;
+}
+.lago-vista{
+    grid-area: hijo7;
+    display: flex;
+    flex-direction: column;
+}
+.eclectic{
+    grid-area: hijo8;
+    display: flex;
+    flex-direction: column;
+}
+.barra-inferior{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    z-index: 2;
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+}
+.bot-izquierda{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    z-index: 2;
+}
+.inc{
+    display: flex;
+    align-items: center;
+}
+.privacidad{
+    display: flex;
+    align-items: center;
+}
+.terminos{
+    display: flex;
+    align-items: center;
+
+}
+.mapa-del-sitio{
+    display: flex;
+    align-items: center;
+}
+.informacion{
+    display: flex;
+    align-items: center;
+}
+.bot-derecha{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35%;
+    z-index: 2;
+}
+.mundito{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+.espa{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mxn{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+.ayuda{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.ver-en-mapa{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 660px;
+    position: fixed;
+    top: 650px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    border-radius: 60px;
+    width: 150px;
+    height: 40px;
+    color: white;
+}
+.mapita{
+    border-radius: 70px;
+    display: flex;
+    height: 70%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: white;
+    
+}
+@media screen and (min-width: 600px) and (max-width: 900px){
+    .top-text{
+        display: flex;
+    }
+    .barra-inferior{
+        position: fixed;
+    }
+}   

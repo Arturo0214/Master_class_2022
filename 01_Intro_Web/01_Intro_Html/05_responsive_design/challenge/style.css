@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centro{
+    display: flex;
+    width: 450px;
+    height: 450px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.rojo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    height: 40%;
+    border: 2px solid red;
+}
+.rojito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    height: 40%;
+    background-color: #ff6060;
+
+}
+.azul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    height: 40%;
+    border: 2px solid blue;
+}
+.azules{
+    display: flex;
+    width: 40%;
+    height: 40%;
+    background-color: #1400ff;
+}
+@media screen {
+    
+}

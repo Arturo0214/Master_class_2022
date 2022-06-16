@@ -1,0 +1,44 @@
+.container{
+    display: grid;
+    height: 100vh;
+    border: 3px solid black;
+    /*grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);*/
+    /* grid-template: filas/columnas*/
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "hijo2 hijo2"
+    "hijo1 hijo3"
+    "hijo1 hijo3";
+    grid-gap: 20px;
+    /*justify-items: alinea horizontalmente
+    justify-items: end;
+    justify-items: center;
+    justify-items: ;items: start;*/
+    /*align-items: alinea verticalmente
+    align-items: end;
+    align-items: start;
+    align-items: center;*/
+
+}
+.hijo{
+    background-color: aqua;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.hijo-1{
+    grid-area: hijo1;
+    /*justify-self: end;
+    justify-self: center;
+    justify-self: start;*/
+    /*align-self: end;
+    align-self: start;
+    align-self: center;*/
+}
+.hijo-2{
+    grid-area: hijo2;
+}
+.hijo-3{
+    grid-area: hijo3;
+}

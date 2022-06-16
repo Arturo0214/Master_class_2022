@@ -1,0 +1,112 @@
+body{
+    height: 100vh;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.padre {
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    /* Se necesita para usar flex box  */
+    display: flex;
+    /* Mover elementos en el eje x o horizontal  */
+    justify-content: space-around;
+    /* Mover elementos en el eje y o vertical  */
+    align-items: center;
+    flex-direction: column;
+}
+.hijo1 {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-around;
+} 
+.nieto1 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+}
+.nieto2 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+}
+.nieto3 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+}
+.hijo2 {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    border: 2px solid #c464c9;
+    align-items: center;
+    justify-content: space-around;
+} 
+.hijo3 {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-around;
+}
+.madre {
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.hija1 {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-around;
+} 
+.hija2 {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-around;
+} 
+.hija3 {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-around;
+}
+.nieta1 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+}
+.nieta2 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+}
+.nieta3 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+}
