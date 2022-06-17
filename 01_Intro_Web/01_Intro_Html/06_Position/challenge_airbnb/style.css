@@ -327,7 +327,6 @@ img{
     align-items: center;
     background-color: white;
     color: white;
-    
 }
 @media screen and (min-width: 600px) and (max-width: 900px){
     .top-text{
@@ -338,5 +337,7 @@ img{
     }
     .content{
         display: flex;
+        flex-direction: column;
     }
+
 }   
